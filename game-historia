@@ -42,7 +42,7 @@ int main(){
 			printf("Qual dia do mes de Maio a II Guerra Mundial acabou na Europa?\n", guerra);
 			scanf("%d", &guerra); 
 			if (guerra == 8){
-			printf("Correto! Proxima pergunta.\n");
+			printf("Correto!\n");
 			
 		} else {
 			printf("Errado, tente novamente!\n");
