@@ -1,0 +1,59 @@
+# include <stdio.h>
+
+int main(){
+	
+	int colombo, rep, lincoln, guerra;
+	
+
+		do {
+			printf("Qual ano Colombo chegou na America?\n", colombo);
+			scanf("%d", &colombo); 
+			if (colombo == 1492){
+			printf("Correto! Proxima pergunta.\n");
+			
+		} else {
+			printf("Errado, tente novamente!\n");
+		}
+		} while(colombo != 1492);
+		
+		do {
+			printf("Qual ano a Rep. foi declarada no Brasil?\n", rep);
+			scanf("%d", &rep);	
+			if (rep == 1889){
+			printf("Correto! Proxima pergunta.\n");
+			
+		} else {
+			printf("Errado, tente novamente!\n");
+		}
+		} while(rep != 1889);
+		
+		do {
+			printf("Qual ano A. Lincoln foi assassinado?\n", lincoln);
+			scanf("%d", &lincoln);
+			if (lincoln == 1865){
+			printf("Correto! Proxima pergunta.\n");
+			
+		} else {
+			printf("Errado, tente novamente!\n");
+		}
+		} while(lincoln != 1865);
+		
+		do {
+			printf("Qual dia do mes de Maio a II Guerra Mundial acabou na Europa?\n", guerra);
+			scanf("%d", &guerra); 
+			if (guerra == 8){
+			printf("Correto! Proxima pergunta.\n");
+			
+		} else {
+			printf("Errado, tente novamente!\n");
+		}
+		} while(guerra != 8);
+		
+		
+		printf("Parabens, voce chegou ao fim desse desafio!\n");
+		
+		return 0; 
+	
+		
+	}
+	
